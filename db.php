@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "login123";
-$database = "logowanie_db";
+$database = "logowanie.db";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
